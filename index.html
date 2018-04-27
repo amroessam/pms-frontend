@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+    <div id="app">
+        <v-app>
+            <main class="content" style="padding: 0px;" data-booted="true">
+                <div class="content--wrap">
+                    <section>
+                        <div class="parallax" style="height: 600px;">
+                            <div class="parallax__image-container">
+                                <img src="assets/hero.jpeg" class="parallax__image" style="display: block; opacity: 1; transform: translate(-50%, 456px);">
+                            </div>
+                            <div class="parallax__content">
+                                <div class="layout white--text column align-center justify-center">
+                                    <v-avatar size="200px">
+                                        <img src="assets/IMG_0069.jpg" alt="Vuetify.js" class="border-radius: 50%" height="200">
+                                    </v-avatar>
+                                    <h1 class="green--text mb-2 display-1 text-xs-center">console.log('Hello, World!')</h1>
+                                    <div class="display-2 mb-3 text-xs-center">Amr Essam</div>
+                                    <a href="/pre-made-themes" class="mt-5 btn btn--large theme--dark blue lighten-2">
+                                        <div class="btn__content">
+                                            Get Started
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </main>
+        </v-app>    
+    </div>
+
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+        <script>
+            new Vue({ el: '#app' })
+        </script>
+</body>
+
+</html>

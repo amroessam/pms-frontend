@@ -1,0 +1,14 @@
+{
+  "name": "pms-frontend",
+  "version": "1.0.0",
+  "description": "The frontend for PMS api, running vue and vuetify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amr Essam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
